@@ -11,12 +11,8 @@ The code has not been tested for any other setting.
 
 Install [MuJoCo](http://www.mujoco.org/) if it is not already the case:
 
-<!-- * Obtain a license on the [MuJoCo website](https://www.roboti.us/license.html). -->
-<!-- * Download MuJoCo binaries [here](https://www.roboti.us/index.html). -->
 * Download MuJoCo binaries [here](https://mujoco.org).
-<!-- * Unzip the downloaded archive into `~/.mujoco/mujoco210` and place your license key file `mjkey.txt` at `~/.mujoco`. -->
 * Unzip the downloaded archive into `~/.mujoco/mujoco210`.
-<!-- * Use the env variables `MUJOCO_PY_MJKEY_PATH` and `MUJOCO_PY_MUJOCO_PATH` to specify the MuJoCo license key path and the MuJoCo directory path. -->
 * Use the env variables `MUJOCO_PY_MUJOCO_PATH` to specify the MuJoCo directory path.
 * Append the MuJoCo subdirectory bin path into the env variable `LD_LIBRARY_PATH`.
 
