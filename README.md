@@ -26,14 +26,14 @@ sudo apt update
 sudo apt install libosmesa6-dev libgl1-mesa-glx libglfw3
 ```
 
-# Requirements
+## Requirements
 The code was run on a GPU with CUDA 11.2. To install all the required dependencies:
 ```sh
 conda env create -f conda_env.yml
 conda activate coit
 ```
 
-# Train CoIT on cartpole_swingup
+## Train CoIT on cartpole_swingup
 ```sh
 python train.py task=cartpole_swingup
 ```
